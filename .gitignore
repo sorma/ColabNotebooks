@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+
+# Ambienti virtuali
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+.ipython/
+
+# Cache e strumenti di sviluppo
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE e sistema operativo
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dati, modelli e artefatti generati
+data/
+datasets/
+models/
+artifacts/
+outputs/
+*.joblib
+*.pkl
+
+# Credenziali Kaggle locali
+kaggle.json
